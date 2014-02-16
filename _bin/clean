@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rm -rf ../_site ../css/themes ../css/grayscale*.css ../_less/themes ../apple-touch-icon*.png ../favicon.ico
