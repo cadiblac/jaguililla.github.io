@@ -1,0 +1,11 @@
+#!/bin/sh
+
+mkdir ../css/themes 2>/dev/null
+
+for theme in $(find ../less/themes -type f -name "*.less" -printf "%f " | sed 's/\.less//g'); do
+lessc ../less/themes/$theme.less >../css/themes/$theme.css
+lessc --clean-css ../less/themes/$theme.less >../css/themes/$theme.min.css
+done
+
+lessc ../less/grayscale.less >../css/grayscale.css
+lessc --clean-css ../less/grayscale.less >../css/grayscale.min.css
