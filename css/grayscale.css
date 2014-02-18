@@ -1,9 +1,123 @@
+/* 
+ * Custom CSS for...
+ * 'Modern Business' HTML Theme by Start Bootstrap
+ *
+ * All Start Bootstrap themes are licensed under Apache 2.0. 
+ * For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+ */
+/* Global Styles */
+html {
+  background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* body padding for fixed top nav */
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.tab-pane {
+  margin-top: 15px;
+}
+/* Page Sections */
+.section,
+.section-colored {
+  padding: 50px 0;
+}
+.section-colored {
+  background-color: #e1e1e1;
+  /* change this to change the background color of a colored section */
+}
+.sidebar {
+  margin-top: 40px;
+}
+.sidebar ul {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 50%;
+}
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/* Social Icons Styles */
+.list-social-icons {
+  margin-bottom: 45px;
+}
+.tooltip-social a {
+  text-decoration: none;
+  color: inherit;
+}
+.facebook-link a:hover {
+  color: #3b5998;
+}
+.linkedin-link a:hover {
+  color: #007fb1;
+}
+.twitter-link a:hover {
+  color: #39a9e0;
+}
+.google-plus-link a:hover {
+  color: #d14836;
+}
+/* Service Page Styles */
+.service-icon {
+  font-size: 50px;
+}
+/* 404 Page Styles */
+.error-404 {
+  font-size: 8em;
+}
+/* Pricing Page Styles */
+.price {
+  font-size: 4em;
+}
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+/* Footer Styles */
+footer {
+  margin: 50px 0;
+}
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .carousel {
+    height: 70%;
+    /* increases the carousel height so it looks good on phones */
+  }
+}
+/*
+ * Custom CSS for...
+ * 'Grayscale' HTML Theme by Start Bootstrap
+ *
+ * All Start Bootstrap themes are licensed under Apache 2.0. 
+ * For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+ */
 body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ffffff;
-  background-color: #000000;
+  background-color: transparent;
 }
 html {
   width: 100%;
@@ -53,6 +167,7 @@ a:focus {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #000000;
+  background-color: rgba(11, 11, 11, 0.5);
 }
 .navbar-brand {
   font-weight: 700;
@@ -88,7 +203,6 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: transparent;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -108,12 +222,6 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: #ffffff;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-  background-color: #000000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 .intro-body {
   display: table-cell;
