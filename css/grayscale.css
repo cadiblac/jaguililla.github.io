@@ -6,14 +6,6 @@
  * For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
  */
 /* Global Styles */
-html {
-  background: url(../img/intro-bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* body padding for fixed top nav */
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
@@ -122,6 +114,13 @@ body {
 html {
   width: 100%;
   height: 100%;
+  /* Background image */
+  background-color: #262418;
+  background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 h1,
 h2,
@@ -167,7 +166,6 @@ a:focus {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #000000;
-  background-color: rgba(11, 11, 11, 0.5);
 }
 .navbar-brand {
   font-weight: 700;
@@ -203,6 +201,7 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
+    background-color: rgba(11, 11, 11, 0.5);
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -222,6 +221,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: #ffffff;
+  background-color: transparent;
 }
 .intro-body {
   display: table-cell;
@@ -239,7 +239,7 @@ a:focus {
     padding: 0;
   }
   .brand-heading {
-    font-size: 100px;
+    font-size: 80px;
   }
   .intro-text {
     font-size: 25px;
@@ -400,4 +400,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+.alphaContainer {
+  background-color: rgba(11, 11, 11, 0.5);
 }

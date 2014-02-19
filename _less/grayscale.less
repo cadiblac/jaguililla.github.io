@@ -8,26 +8,6 @@
 
 /* Global Styles */
 
-//html, body {
-  //height: 100%;
-//}
-
-html { 
-  background: url(../img/intro-bg.jpg) no-repeat center center fixed; 
-  //-webkit-filter: sepia(80%);
-  //-moz-filter: sepia(80%);
-  //-o-filter: sepia(80%);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-//body {
-  //padding-top: 50px;
- /* body padding for fixed top nav */
-//}
-
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
@@ -163,13 +143,26 @@ body {
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: @light;
-    //background-color: @dark;
     background-color: transparent;
 }
 
 html {
     width: 100%;
     height: 100%;
+
+    /* Background image */
+    background-color: #262418;
+    background: url(../img/intro-bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    // TODO Sepia tone (affects all page, not only bg)
+    //-webkit-filter: sepia(80%);
+    //-moz-filter: sepia(80%);
+    //-o-filter: sepia(80%);
+    //filter: sepia(80%);
 }
 
 // Typhography 
@@ -226,7 +219,6 @@ a:focus {
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: @dark;
-    background-color: rgba(11,11,11,.5);
 }
 
 .navbar-brand {
@@ -270,7 +262,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: none;
         letter-spacing: 1px;
-        //background: transparent;
+        background-color: rgba(11,11,11,.5);
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -288,13 +280,14 @@ a:focus {
 
  // Full Page Image Intro Section 
 
- .intro {
+.intro {
     display: table;
     width: 100%;
     height: auto;
     padding: 100px 0;
     text-align: center;
     color: @light;
+    background-color: transparent;
     //background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     //background-color: @dark;
     //-webkit-background-size: cover;
@@ -302,12 +295,6 @@ a:focus {
     //background-size: cover;
     //-o-background-size: cover;
 }
-
-//section.intro {
-    //-webkit-filter: sepia(80%);
-    //-moz-filter: sepia(80%);
-    //-o-filter: sepia(80%);
-//}
 
 .intro-body {
     display: table-cell;
@@ -329,7 +316,7 @@ a:focus {
     }
 
     .brand-heading {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     .intro-text {
@@ -529,7 +516,7 @@ body {
 }
 
 // CUSTOM //////////////////////////////////////////////////////////////////////////////////////////
-//div.container {
-    //background-color: rgba(11,11,11,.5);
-//}
+.alphaContainer {
+    background-color: rgba(11,11,11,.5);
+}
 
