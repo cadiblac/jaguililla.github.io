@@ -1,44 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+<html lang="en">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    </head>
-    <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.title }}">
+    <meta name="author" content="{{ site.author.name }}">
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+    <title>{{ page.title }}</title>
 
-          {{ content }}
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.bootstrapcdn }}/bootswatch/3.1.0/cyborg/bootstrap.min.css" rel="stylesheet">
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+    <!-- Fonts -->
+    <link href="{{ site.cloudflare }}/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href='{{ site.googlefonts }}=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link
+        href='{{ site.googlefonts }}=Lora:400,700,400italic,700italic'
+        rel='stylesheet'
+        type='text/css'>
 
-    </body>
+    <!-- Custom Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+{% include navbar.html %}
+{{ content }}
+{% include footer.html %}
+{% include analytics.html %}
+
+    <script src="{{ site.cloudflare }}/jquery/2.0.3/jquery.min.js"></script>
+    <script src="{{ site.cloudflare }}/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="{{ site.cloudflare }}/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+</body>
+
 </html>

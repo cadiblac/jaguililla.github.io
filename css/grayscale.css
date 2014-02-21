@@ -198,7 +198,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .navbar {
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: none;
     letter-spacing: 1px;
     background-color: rgba(11, 11, 11, 0.5);
@@ -228,7 +228,7 @@ a:focus {
   vertical-align: middle;
 }
 .brand-heading {
-  font-size: 40px;
+  font-size: 30px;
 }
 .intro-text {
   font-size: 18px;
@@ -239,7 +239,7 @@ a:focus {
     padding: 0;
   }
   .brand-heading {
-    font-size: 80px;
+    font-size: 70px;
   }
   .intro-text {
     font-size: 25px;

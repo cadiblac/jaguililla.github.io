@@ -1,42 +1,50 @@
-<nav class="navbar navbar-fixed-top navbar-default navbar-blog" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-pages">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="/">{{ site.title }}</a>
-  </div>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-main-collapse">
 
-  <div class="collapse navbar-collapse navbar-pages">
-    <ul class="nav navbar-nav navbar-right hidden-print thin">
-      <li>
-        <a class="hidden-xs" href="http://github.com/caarlos0/up"
-        title="Get this theme!">
-        <i class="fa fa-download fa-lg"></i>
-      </a>
-      <a class="visible-xs" href="http://github.com/caarlos0/up"
-      title="Get this theme!">
-      <i class="fa fa-download fa-lg"></i> Get this theme!
-    </a>
-  </li>
-  <li>
-    <a class="hidden-xs" title="About me" href="/about">
-      <i class="fa fa-user fa-lg"></i>
-    </a>
-    <a class="visible-xs" title="About me" href="/about">
-      <i class="fa fa-user fa-lg"></i> About me
-    </a>
-  </li>
-  <li>
-    <a class="hidden-xs" href="/atom.xml" title="Atom Feed">
-      <i class="fa fa-rss fa-lg"></i>
-    </a>
-    <a class="visible-xs" href="/atom.xml" title="Atom Feed">
-      <i class="fa fa-rss fa-lg"></i> Atom Feed
-    </a>
-  </li>
-</ul>
-</div>
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand" href="#page-top">
+                <span class="light">Think</span>
+                &nbsp;&#8756;&nbsp;
+                <span class="light">Code</span>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!--
+                 ! Hidden li included to remove active class from about link when scrolled up
+                 ! past about section
+                 !-->
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#posts">Posts</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#about">About</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#contact">Contact</a>
+                </li>
+                <!-- TODO Make submenu with RSS and Atom -->
+                <li class="page-scroll">
+                    <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+                <!--li class="page-scroll">
+                    <a href="#contact"><i class="fa fa-rss"></a>
+                </li-->
+            </ul>
+        </div>
+    </div>
 </nav>
+

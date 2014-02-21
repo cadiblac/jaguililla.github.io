@@ -1,2 +1,46 @@
+#
+# Jekyll
+#
 name: there4.co
-pygments: true
+timezone: Europe/Madrid
+encoding: UTF-8
+
+future: false
+
+show_drafts: nil # TODO Check meaning
+limit_posts: 0 # TODO Check meaning
+
+# TODO Pagination, share (tweet, I like, etc...)
+# TODO Favicon
+# TODO Color Schemes
+
+permalink: pretty
+
+#
+# Custom
+#
+
+# Third party services
+analytics:
+    id: UA-48216810-1
+    property: there4.co
+disqus_shortname: there4co
+
+bootstrapcdn: http://netdna.bootstrapcdn.com
+cloudflare: http://cdnjs.cloudflare.com/ajax/libs
+googlefonts: http://fonts.googleapis.com/css?family
+
+# Site
+title: I Think<br/>Therefore<br/>I Code
+tagline: A blog about my things
+
+production_url: http://there4.co
+
+# Author
+author:
+    name: Juan José Aguililla
+    github: jamming
+    twitter: jaguililla
+    linkedin: jaguililla
+    email: juanjoaguililla@gmail.com
+
