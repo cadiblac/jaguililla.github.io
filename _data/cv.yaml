@@ -4,18 +4,16 @@ Personal:
     Birth: 1979-01-22
     Birth Country: ES
     Mother Language: es
-    Photo: photo.jpg
+    Photo: assets/cv/photo.jpg
     Gender: male
-    ID: 02266869-N
     Alias: jamming
-    Avatar: avatar.png
+    Avatar: assets/cv/avatar.png
     Driving License: B1
 
 Residence:
-    Address: { es: Avd del Mar Mediterráneo, en_US: Mar Mediterranéo Avenue }
-    City: Valdemoro
+    City: Madrid
     Country: ES
-    Postcode: 28341
+    Postcode: 28038
 
 Contact:
     Mobile: 620 38 28 08
@@ -25,11 +23,9 @@ Social Networks:
     LinkedIn: jaguililla
     Twitter: jaguililla
     Github: jamming
-    Bitbucket: jamming
 
 Publications:
-    Blog: http://www.warizmi.com
-    Website: http://www.warizmi.com
+    Website: http://there4.co
 
 Groups:
   - Group: Betabeers
@@ -71,8 +67,8 @@ Experience:
       - Project: Virline
         From: 2013-04
         To: present
-        Description:
-          "Desing and development of a testing tool meant to simulate physical devices in order to
+        Description: "
+          Desing and development of a testing tool meant to simulate physical devices in order to
           test applications which uses them without the need of the actual hardware."
         Responsabilities:
         Technologies: [ Java Swing, Java Networking, Java Threading, Java IO, EJB Client, JUnit ]
@@ -82,8 +78,8 @@ Experience:
       - Project: Mobile Check
         From: 2012-08
         To: 2012-10
-        Description:
-          "Development of a mobile and a Web application to gather product's information associated
+        Description: "
+          Development of a mobile and a Web application to gather product's information associated
           to their Datamatrix codes. Also Web desing (UI, colors, branding, etc.)"
         Responsabilities:
         Technologies: [
@@ -133,8 +129,8 @@ Experience:
         Client: Several clients
         From:  2008-09
         To: 2008-10
-        Description:
-          "Analysis, design and development for several projects managed by this area (CMS for the
+        Description: "
+          Analysis, design and development for several projects managed by this area (CMS for the
           Barcelona City Hall and PAI 4.5 -Movistart Web Content platform-)."
         Responsabilities:
         Technologies: [ J2EE, Vignette ]
@@ -145,8 +141,8 @@ Experience:
         Client: { Name: Clínica Universitaria de Navarra, Website: "http://www.cun.es" }
         From: 2008-05
         To: 2008-09
-        Description:
-          "Analysis and development of the CUN Web Application. This application was designed to
+        Description: "
+          Analysis and development of the CUN Web Application. This application was designed to
           control patient's medical data, this data is entered and sent via Web or by Mobile phone."
         Responsabilities:
         Technologies: [ Struts 1, XHTML, SQL ]
@@ -157,8 +153,8 @@ Experience:
         Client: { Name: HP, Website: "http://www.hp.es" }
         From: 2006-09
         To: 2008-05
-        Description:
-          "Maintenance service (software development, fixes and changes) for the Vodafone WAP
+        Description: "
+          Maintenance service (software development, fixes and changes) for the Vodafone WAP
           portal (Vodafone Live!) projects."
         Responsabilities:
         Technologies: [ GWT 1.4, Struts 1, SQL, XHTML, CSS, J2EE ]
@@ -166,8 +162,8 @@ Experience:
         Tools: [ Eclipse 3.3, Subversion, Maven 2, Trac ]
 
       - Course: RIA Web Applications with GWT Course
-        Description:
-          "I taught a course of six hours to learn how to develop RIA applications using Google's
+        Description: "
+          I taught a course of six hours to learn how to develop RIA applications using Google's
           Web Framework (GWT)."
         Responsabilities: Teacher
         Technologies: [ GWT ]
@@ -175,8 +171,8 @@ Experience:
         Tools: [ Eclipse ]
 
       - Course: Automatic Build Management with Ant y Maven Course
-        Description:
-          "I taught a four hours course about controlling and building software projects using Ant
+        Description: "
+          I taught a four hours course about controlling and building software projects using Ant
           and Maven 2."
         Responsabilities: Teacher
         Technologies: [ Ant, Maven ]
@@ -184,8 +180,8 @@ Experience:
         Tools: [ ]
 
       - Course: Introduction to J2EE Course
-        Description:
-          "I taught an introductory course about the JEE platform of six hours long. It was focused
+        Description: "
+          I taught an introductory course about the JEE platform of six hours long. It was focused
           in the J2EE architecture and Web modules development (Servlets and JSPs)."
         Responsabilities: Teacher
         Technologies: [ JEE, Servlets, JSP ]
@@ -205,8 +201,8 @@ Experience:
         Client: GFI > Vodafone
         From: 2005-12
         To: 2006-09
-        Description:
-          "Development and maintenance of a Web application which purpose was to make the best
+        Description: "
+          Development and maintenance of a Web application which purpose was to make the best
           possible offer to clients depending on the channel they were using (Web, call center,
           shops, etc.)."
         Responsabilities:
@@ -218,8 +214,8 @@ Experience:
         Client:
         From: 2005-02
         To: 2005-12
-        Description:
-          "Development and maintenance of a Web application designed to manage insurance policies
+        Description: "
+          Development and maintenance of a Web application designed to manage insurance policies
           by Internet."
         Responsabilities:
         Technologies: [ J2EE, XML (JDOM), EJB, XHTML, CSS, SQL, JavaScript ]
@@ -238,8 +234,8 @@ Experience:
         Client:  (in-house)
         From: 2004-02
         To: 2004-12
-        Description:
-          "Analysis, design and development of a client-server application to automate
+        Description: "
+          Analysis, design and development of a client-server application to automate
           communications to customers (sending SMSs, emails or voice calls). I designed the
           application's architecture using UML and created the project's infrastructure (packages
           generation, documentation, component signing, etc.)."
@@ -261,8 +257,8 @@ Experience:
         Client: BBVA
         From: 2003-07
         To: 2004-02
-        Description:
-          "Application to send a huge number of emails (mainly for advertisement purposes) with
+        Description: "
+          Application to send a huge number of emails (mainly for advertisement purposes) with
           load balancing between mail servers. I was in charge of the functional analysis and
           components design."
         Responsabilities:
@@ -274,8 +270,8 @@ Experience:
         Client: BBVA
         From: 2002-09
         To: 2003-07
-        Description:
-          "Application to monitor the mail server network to assure the quality of the service.
+        Description: "
+          Application to monitor the mail server network to assure the quality of the service.
           This goal was achieved by using several process (Java threads) to send and receive mails
           to each server."
         Responsabilities:
@@ -287,8 +283,8 @@ Experience:
         Client:
         From: 2002-08
         To: 2002-09
-        Description:
-          "I taught a four weeks course for WSBCC (WebSphere Business Component Composer) and Java
+        Description: "
+          I taught a four weeks course for WSBCC (WebSphere Business Component Composer) and Java
           development. For the course, the students used Eclipse 2.0 and Visual Age for Java 4.0."
         Responsabilities:
         Technologies: [ ]
@@ -308,8 +304,8 @@ Experience:
         Client: IBM
         From: 2002-04
         To: 2002-08
-        Description:
-          "Programming some parts of the BSCH's financial console, which is used to manage the
+        Description: "
+          Programming some parts of the BSCH's financial console, which is used to manage the
           bank's offices operations."
         Responsabilities:
         Technologies: [ J2SE, Swing, XML, CBTF 3.0 ]
@@ -320,8 +316,8 @@ Experience:
         Client: Telefónica Móviles
         From: 2002-02
         To: 2002-04
-        Description:
-          "Development of an application to translate Oracle Forms windows (called forms as
+        Description: "
+          Development of an application to translate Oracle Forms windows (called forms as
           well)."
         Responsabilities:
         Technologies: [ C++, Oracle, SQL, PL/SQL ]
@@ -332,8 +328,8 @@ Experience:
         Client: Telefónica Sistemas
         From: 2001-08
         To: 2002-02
-        Description:
-          "Web application that manages issues (errors, pending tasks, etc.) via intranet."
+        Description: "
+          Web application that manages issues (errors, pending tasks, etc.) via intranet."
         Responsabilities:
         Technologies: [ J2EE, XML (JAXP), XSLT, JSP, HTML, CSS, JavaScript ]
         Servers: [ Oracle 8i, iPlanet ]
@@ -343,8 +339,8 @@ Experience:
         Client: IBM
         From: 2000-11
         To: 2001-08
-        Description:
-          "Programming the client side of a client-server application which purpose was to manage
+        Description: "
+          Programming the client side of a client-server application which purpose was to manage
           Telefónica's most important customers."
         Responsabilities:
         Technologies: [ J2SE, Swing, XML, WSBCC ]
@@ -364,8 +360,8 @@ Experience:
         Client: Friser
         From: 2000-08
         To: 2000-10
-        Description:
-          "Development of a client-server application to manage orders and invoices using
+        Description: "
+          Development of a client-server application to manage orders and invoices using
           Microsoft products."
         Responsabilities:
         Technologies: [ Visual Basic ]
@@ -401,7 +397,8 @@ Education:
     Lenght: 35h # TODO
     Country: CH
     City: Laussane
-    Description: IoC, AOP, Data (JDBC), Hibernate, DB Transactions, Web MVC, Security, Remoting, JMS, JMX
+    Description: "
+      IoC, AOP, Data (JDBC), Hibernate, DB Transactions, Web MVC, Security, Remoting, JMS, JMX"
 
 Communication Skills:
   - International projects
@@ -410,21 +407,19 @@ Managerial Skills:
   - Basketball coach
 
 Technical Skills:
-  - Operating Systems:
-    - Unix (AIX, Linux, Solaris): Administrator
-    - Windows (NT, 2000, XP, 7): Administrator
+  - Operating Systems: [ AIX, Linux, Solaris, Windows 2000, Windows XP, Windows 7 ]
   - Methodologies: [ UML 1.3, Metrica 3, Scrum, TDD, BDD ]
   - Programming Languages: [ C, C++, Java, Basic, SQL, PL/SQL, Scala, Python, Ruby ]
-  - J2SE: [ Applets, JDBC, JFC / Swing ]
+  - J2SE: [ Applets, JDBC, JFC / Swing, JavaFX ]
   - J2EE: [ Servlets, JSP, JMS, EJB, JavaMail, DOM, SAX, JPA ]
   - Mobile development: [ Android, J2ME ]
-  - Frameworks and libraries [ Spring 3, GWT, Struts 1/2, MyBatis, etc. ]
-  - JavaFX
+  - Frameworks and libraries: [ Spring 3, GWT, Struts 1/2, MyBatis, etc. ]
   - Web Development: [ HTML(5), XSLT CSS(3), JavaScript, XML, PHP, Twitter Bootstrap ]
 
   - Integrated Development Environments (IDEs) and Tools: [
-    Eclipse 2.x - 3.x, Visual Basic 6, NetBeans 2.x - 7.x, Borland C++ Builder 5, Intellij IDEA 11,
-    Ant 1.4 - 1.7, Oracle Developer, Maven 2 - 3, MySQL Workbench 5, Artifactory
+    'Eclipse 2.x - 3.x', Visual Basic 6, 'NetBeans 2.x - 7.x', Borland C++ Builder 5,
+    Intellij IDEA 11,
+    'Ant 1.4 - 1.7', Oracle Developer, 'Maven 2 - 3', MySQL Workbench 5, Artifactory
   ]
 
   - Source Code Management (SCM): [ CVS, Visual Source Safe, Subversion, Mercurial, Git ]
@@ -434,33 +429,21 @@ Technical Skills:
     Continuous integration (Hudson, Continuum and Bamboo)
   ]
 
-  - Database Management Systems (DBMSs) and Application Servers: [
-    Oracle 8i - 11g, Tomcat 3.x - 7.x, MySQL 3.x - 5.x, Jetty 6 - 8, iPlanet, HSQLDB 1.8,
-    Websphere Aplication Server, H2
-  ]
+  - Database Management Systems (DBMSs): [ Oracle 11g, MySQL, HSQLDB, H2 ]
+  - Application Servers: [ Tomcat, Jetty, iPlanet, Websphere Aplication Server ]
+  - Office Suites: [ MS Office, Open Office ]
 
-  - Office Suites: [ MS Office 97 - 2000, Open Office 1.1 - 3.x ]
-
-Other Skills:
-  - Typewriting
-  - Drawing
+Other Skills: [ Typewriting, Drawing ]
 
 ####################################################################################################
 # Copies of degrees and qualifications, etc (basicly a list of other files)
 Anexes:
 
 ####################################################################################################
-Interests:
-  - Basketball
-  - Martial Arts
-  - Videogames
-  - Theater
-  - Music
+Interests: [ Basketball, Martial Arts, Videogames, Theater, Music ]
 
 ####################################################################################################
-Other Facts:
-  - Availability to travel
-  - Own vehicle
+Other Facts: [ Availability to travel, Own vehicle ]
 
 ...
 #
