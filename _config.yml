@@ -7,12 +7,8 @@ encoding: UTF-8
 
 future: false
 
-show_drafts: nil # TODO Check meaning
-limit_posts: 0 # TODO Check meaning
-
-# TODO Pagination, share (tweet, I like, etc...)
-# TODO Favicon
-# TODO Color Schemes
+#show_drafts: nil
+#limit_posts: 0
 
 permalink: pretty
 
