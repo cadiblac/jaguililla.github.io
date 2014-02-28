@@ -9,7 +9,7 @@ convert ${ICON} \
     \( -clone 0 -resize 32x32 \) \
     \( -clone 0 -resize 48x48 \) \
     \( -clone 0 -resize 64x64 \) \
-    -delete 0 -colors 256 ${OUT}/favicon.ico
+    -delete 0 ${OUT}/favicon.ico
 
 # Apple icons
 convert ${ICON} -resize 144x144 ${OUT}/apple-touch-icon-144x144-precomposed.png
