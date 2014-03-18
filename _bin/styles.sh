@@ -6,6 +6,3 @@ for theme in $(find ../_less/themes -type f -name "*.less" -printf "%f " | sed '
 lessc ../_less/themes/${theme}.less >../css/themes/${theme}.css
 lessc --clean-css ../_less/themes/${theme}.less >../css/themes/${theme}.min.css
 done
-
-lessc ../_less/grayscale.less >../css/grayscale.css
-lessc --clean-css ../_less/grayscale.less >../css/grayscale.min.css

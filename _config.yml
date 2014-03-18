@@ -7,9 +7,6 @@ encoding: UTF-8
 
 future: false
 
-#show_drafts: nil
-#limit_posts: 0
-
 permalink: pretty
 
 #
@@ -28,7 +25,7 @@ googlefonts: http://fonts.googleapis.com/css?family
 
 # Site
 title: I Think<br/>Therefore<br/>I Code
-tagline: A blog about my things
+tagline: (The opposite is not always true)
 
 production_url: http://there4.co
 
