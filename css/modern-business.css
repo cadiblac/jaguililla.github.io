@@ -70,9 +70,31 @@ body {
   outline: none;
 }
 
+/* Wrapper for page content to push down footer */
 section#intro {
-  height: 100%;
   color: white;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push, footer {
+  text-align: center;
+  margin: 0;
+  height: 60px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 section#intro .jumbotron {
@@ -235,15 +257,14 @@ section#intro footer, section#intro footer p {
   font-style: italic;
 }
 
-/* Footer Styles */
-footer {
-  margin: 50px 0;
-}
-
 /* Responsive Styles */
 @media (max-width: 767px) {
   /* increases the carousel height so it looks good on phones */
   .carousel {
     height: 70%;
   }
+}
+
+.fa-4x {
+  color: #56ab3b;
 }
