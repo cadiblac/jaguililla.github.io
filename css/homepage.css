@@ -1,0 +1,91 @@
+/*
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0.
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com
+*/
+
+/* Global Styles */
+
+/* Remove margin and padding for the sticky footer */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 0;
+  text-align: center;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/* Wrapper for page content to push down footer */
+section#intro {
+  color: white;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -80px;
+}
+
+/* Set the fixed height of the footer here */
+#push, footer {
+  margin: 0;
+  height: 80px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+section#intro .jumbotron {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section#intro div.jumbotron div#links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section#intro h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+section#intro p {
+  font-size: 15px;
+}
+
+section#intro footer, section#intro footer p {
+  font-size: 20px;
+}
+
+@media (min-width: 767px) {
+  section#intro .jumbotron {
+    margin: 100px;
+  }
+
+  section#intro h1 {
+    font-size: 70px;
+  }
+
+  section#intro p {
+    font-size: 35px;
+  }
+}
+
+.fa-4x {
+  color: rgb(212, 234, 130);
+}
