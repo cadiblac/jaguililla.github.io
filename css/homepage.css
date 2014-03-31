@@ -1,12 +1,6 @@
 /*
-Custom CSS for...
-'Modern Business' HTML Theme by Start Bootstrap
-
-All Start Bootstrap themes are licensed under Apache 2.0.
-For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com
-*/
-
-/* Global Styles */
+ * Custom CSS for the home page
+ */
 
 /* Remove margin and padding for the sticky footer */
 html, body {
@@ -23,69 +17,68 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+/* Set the fixed height of the footer here */
+footer {
+  margin: 0;
+  height: 80px;
+  font-size: 2em;
+}
+
+footer i {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.jumbotron {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+#push {
+  height: 80px;
+}
+
 /* Wrapper for page content to push down footer */
-section#intro {
+#intro {
   color: white;
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  /* Negative indent footer by it's height */
-  margin: 0 auto -80px;
+  margin: 0 auto -80px; /* Negative indent footer by it's height */
 }
 
-/* Set the fixed height of the footer here */
-#push, footer {
-  margin: 0;
-  height: 80px;
-}
-
-/* Lastly, apply responsive CSS fixes as necessary */
-@media (max-width: 767px) {
-  footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-section#intro .jumbotron {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-section#intro div.jumbotron div#links {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-section#intro h1 {
-  text-transform: uppercase;
+#links i {
   font-size: 35px;
+}
+
+#links a {
+  color: rgb(176, 223, 96);
+}
+
+#intro h1 {
+  text-transform: uppercase;
+  font-size: 28px;
   font-weight: 700;
 }
 
-section#intro p {
-  font-size: 15px;
+#intro p {
+  font-size: 14px;
 }
 
-section#intro footer, section#intro footer p {
-  font-size: 20px;
-}
-
-@media (min-width: 767px) {
-  section#intro .jumbotron {
-    margin: 100px;
+@media (min-width: 600px) {
+  .jumbotron {
+    margin-top: 100px;
   }
 
-  section#intro h1 {
-    font-size: 70px;
+  #links i {
+    font-size: 4em;
   }
 
-  section#intro p {
-    font-size: 35px;
+  #intro h1 {
+    font-size: 45px;
   }
-}
 
-.fa-4x {
-  color: rgb(212, 234, 130);
+  #intro p {
+    font-size: 22px;
+  }
 }

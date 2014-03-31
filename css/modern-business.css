@@ -14,7 +14,7 @@ html, body {
 }
 
 html {
-  background: #262418 url(/img/intro-bg.jpg) no-repeat fixed center center;
+  background: #262418 url(/img/eniac5-sepia-dark.jpg) no-repeat fixed center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,7 +23,7 @@ html {
 
 body {
   padding-top: 60px; /* body padding for fixed top nav */
-  background-color: rgba(11, 11, 11, 0.3);
+  background: transparent;
 }
 
 /* Navbar */
