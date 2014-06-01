@@ -55,6 +55,10 @@ footer i {
   color: rgb(176, 223, 96);
 }
 
+#links a:hover {
+  color: rgb(126, 252, 18);
+}
+
 #intro h1 {
   text-transform: uppercase;
   font-size: 28px;
@@ -82,3 +86,34 @@ footer i {
     font-size: 22px;
   }
 }
+
+footer i.fa-linkedin-square:hover,
+footer i.fa-twitter-square:hover,
+footer i.fa-github-square:hover,
+footer i.fa-envelope:hover,
+footer i.icon-cc:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*
+footer i.fa-linkedin-square:hover {
+  color: #007fb1;
+}
+
+footer i.fa-twitter-square:hover {
+  color: #39a9e0;
+}
+
+footer i.fa-github-square:hover {
+  color: #B5B5B5;
+}
+
+footer i.fa-envelope:hover {
+  color: #FFF;
+}
+
+footer i.icon-cc:hover {
+  color: #FFF;
+}
+*/
+
