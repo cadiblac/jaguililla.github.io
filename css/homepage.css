@@ -6,6 +6,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-size: 14px;
 }
 
 body {
@@ -20,7 +21,7 @@ a:hover, a:focus {
 /* Set the fixed height of the footer here */
 footer {
   margin: 0;
-  height: 80px;
+  height: 90px;
   font-size: 2em;
 }
 
@@ -35,7 +36,7 @@ footer i {
 }
 
 #push {
-  height: 80px;
+  height: 90px;
 }
 
 /* Wrapper for page content to push down footer */
@@ -44,7 +45,7 @@ footer i {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -80px; /* Negative indent footer by it's height */
+  margin: 0 auto -90px; /* Negative indent footer by it's height */
 }
 
 #links i {
@@ -67,6 +68,10 @@ footer i {
 
 #intro p {
   font-size: 14px;
+}
+
+@media (min-height: 320px) {
+  #push { height: 80px; }
 }
 
 @media (min-width: 600px) {
