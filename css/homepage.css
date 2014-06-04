@@ -14,20 +14,13 @@ body {
   text-align: center;
 }
 
-a:hover, a:focus {
-  text-decoration: none;
-}
-
 /* Set the fixed height of the footer here */
 footer {
-  margin: 0;
   height: 90px;
   font-size: 2em;
 }
 
-footer i {
-  color: rgba(255, 255, 255, 0.1);
-}
+footer i { color: rgba(255, 255, 255, 0.1); }
 
 .jumbotron {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,9 +28,7 @@ footer i {
   margin-bottom: 0;
 }
 
-#push {
-  height: 90px;
-}
+#push { height: 90px; }
 
 /* Wrapper for page content to push down footer */
 #intro {
@@ -48,26 +39,15 @@ footer i {
   margin: 0 auto -90px; /* Negative indent footer by it's height */
 }
 
-#links i {
-  font-size: 35px;
-}
+#links i { font-size: 35px; }
+#links a { color: rgb(176, 223, 96); }
+#links a:hover { color: rgb(126, 252, 18); }
 
-#links a {
-  color: rgb(176, 223, 96);
-}
-
-#links a:hover {
-  color: rgb(126, 252, 18);
-}
-
+#intro p { font-size: 14px; }
 #intro h1 {
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 700;
-}
-
-#intro p {
-  font-size: 14px;
 }
 
 @media (min-height: 320px) {
@@ -75,21 +55,12 @@ footer i {
 }
 
 @media (min-width: 600px) {
-  .jumbotron {
-    margin-top: 100px;
-  }
+  .jumbotron { margin-top: 100px; }
 
-  #links i {
-    font-size: 4em;
-  }
+  #links i { font-size: 4em; }
 
-  #intro h1 {
-    font-size: 45px;
-  }
-
-  #intro p {
-    font-size: 22px;
-  }
+  #intro h1 { font-size: 45px; }
+  #intro p { font-size: 22px; }
 }
 
 footer i.fa-linkedin-square:hover,
@@ -99,26 +70,3 @@ footer i.fa-envelope:hover,
 footer i.icon-cc:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-
-/*
-footer i.fa-linkedin-square:hover {
-  color: #007fb1;
-}
-
-footer i.fa-twitter-square:hover {
-  color: #39a9e0;
-}
-
-footer i.fa-github-square:hover {
-  color: #B5B5B5;
-}
-
-footer i.fa-envelope:hover {
-  color: #FFF;
-}
-
-footer i.icon-cc:hover {
-  color: #FFF;
-}
-*/
-

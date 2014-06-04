@@ -11,7 +11,8 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-size: 18px;
+  font-size: 16px;
+  background: transparent;
 }
 
 html {
@@ -22,15 +23,17 @@ html {
   background-size: cover;
 }
 
-body {
-  padding-top: 60px; /* body padding for fixed top nav */
-  background: transparent;
-}
-
 h1, h2, h3, a { color: rgb(176, 223, 96); }
 h1, h2, h3 {
   color: rgb(176, 223, 96);
   font-weight: bolder;
+}
+
+h1 { font-size: 28px; }
+
+a:hover, a:focus {
+  color: rgb(126, 252, 18);
+  text-decoration: none;
 }
 
 /* Navbar */
@@ -49,16 +52,10 @@ h1, h2, h3 {
   height: 100%;
 }
 
-.navbar-brand:focus {
-  outline: none;
-}
-.navbar-brand:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
+.navbar-brand:focus { outline: none; }
+.navbar-brand:hover { background-color: rgba(255, 255, 255, 0.2); }
 
-.navbar a {
-  color: #ffffff;
-}
+.navbar a { color: #ffffff; }
 
 .navbar .nav li a {
   margin-top: 5px;
@@ -69,9 +66,7 @@ h1, h2, h3 {
   transition: background 0.3s ease-in-out;
 }
 
-.navbar .nav li a:hover,
-.navbar .nav li a:focus,
-.navbar .nav li.active {
+.navbar .nav li a:hover, .navbar .nav li a:focus, .navbar .nav li.active {
   outline: none;
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -84,10 +79,7 @@ h1, h2, h3 {
   border: 1px solid white;
 }
 
-.navbar-toggle:focus,
-.navbar-toggle:active {
-  outline: none;
-}
+.navbar-toggle:focus, .navbar-toggle:active { outline: none; }
 
 @media (min-width: 767px) {
   .navbar {
@@ -100,35 +92,21 @@ h1, h2, h3 {
   }
 }
 
-.darkbg {
-  background-color: rgba(11, 11, 11, 0.7);
-}
+.darkbg { background-color: rgba(11, 11, 11, 0.7); }
 
-.img-home-portfolio,
-.img-customer,
-.portfolio-item {
-  margin-bottom: 30px;
-}
+.img-home-portfolio, .img-customer, .portfolio-item { margin-bottom: 30px; }
 
-.tab-pane {
-  margin-top: 15px;
-}
+.tab-pane { margin-top: 15px; }
 
 /* Page Sections */
-.section,
-.section-colored {
-  padding: 50px 0;
-}
 
+.section, .section-colored { padding: 50px 0; }
 .section-colored {
   background-color: #e1e1e1;
  /* change this to change the background color of a colored section */
 }
 
-.sidebar {
-  margin-top: 40px;
-}
-
+.sidebar { margin-top: 40px; }
 .sidebar ul {
   border-radius: 5px;
   padding: 5px;
@@ -136,23 +114,9 @@ h1, h2, h3 {
 }
 
 /* Half Page Height Carousel Customization */
-.carousel {
-  height: 50%;
-}
+.carousel { height: 50%; }
 
-.item,
-.active,
-.carousel-inner {
-  height: 100%;
-}
-
-/* Responsive Styles */
-@media (max-width: 767px) {
-  /* increases the carousel height so it looks good on phones */
-  .carousel {
-    height: 70%;
-  }
-}
+.item, .active, .carousel-inner { height: 100%; }
 
 .fill {
   width: 100%;
@@ -163,57 +127,34 @@ h1, h2, h3 {
 
 /* Social Icons Styles */
 
-.list-social-icons {
-  margin-bottom: 45px;
-}
+.list-social-icons { margin-bottom: 45px; }
 
 .tooltip-social a {
   text-decoration: none;
   color: inherit;
 }
 
-.facebook-link a:hover {
-  color: #3b5998;
-}
-
-.linkedin-link a:hover {
-  color: #007fb1;
-}
-
-.twitter-link a:hover {
-  color: #39a9e0;
-}
-
-.google-plus-link a:hover {
-  color: #d14836;
-}
-
-.email-link a:hover {
-  color: #d14836;
-}
+.facebook-link a:hover { color: #3b5998; }
+.linkedin-link a:hover { color: #007fb1; }
+.twitter-link a:hover { color: #39a9e0; }
+.google-plus-link a:hover { color: #d14836; }
+.github-link a:hover { color: #B4B4B4; }
+.email-link a:hover { color: #d14836; }
 
 /* Service Page Styles */
-.service-icon {
-  font-size: 50px;
+
+.service-icon { font-size: 50px; }
+
+/* Sticky footer */
+
+#about, #posts, #post {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -80px; /* Negative indent footer by its height */
+  padding: 60px 0 80px; /* Pad bottom by footer height and top to show below navbar */
 }
 
-/* 404 Page Styles */
-.error-404 {
-  font-size: 8em;
-}
-
-/* Pricing Page Styles */
-
-.price {
-  font-size: 4em;
-}
-
-.price-cents {
-  vertical-align: super;
-  font-size: 50%;
-}
-
-.price-month {
-  font-size: 35%;
-  font-style: italic;
+footer {
+  margin: 0
+  height: 80px;
 }
