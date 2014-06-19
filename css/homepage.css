@@ -18,9 +18,10 @@ body {
 footer {
   height: 90px;
   font-size: 2em;
+  padding: 0;
 }
 
-footer i { color: rgba(255, 255, 255, 0.1); }
+footer i { color: rgba(255, 255, 255, 0.2); }
 
 .jumbotron {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -67,6 +68,8 @@ footer i.fa-linkedin-square:hover,
 footer i.fa-twitter-square:hover,
 footer i.fa-github-square:hover,
 footer i.fa-envelope:hover,
-footer i.icon-cc:hover {
+footer i.icon-cc:hover,
+footer a:hover {
   color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
 }

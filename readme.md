@@ -1,16 +1,18 @@
 Pending tasks...
 
-  * TODO Make submenu with RSS and Atom
   * TODO Pagination, share (tweet, I like, etc...) `\_config.yml`
   * TODO Widgets: Twitter, Stackoverflow, github, etc
-  * TODO Favicon (therefore sign, four T's in line, TC, T>C)
-  * TODO Color Schemes
   * TODO Add CSS animations for navbar brand over and main title over
-  * TODO Search an accent color (color scheme designer) orange tones
+  * TODO Add animation effects: http://daneden.me/animate
+  * TODO Search
   * TODO Convert `modern-business.css` to less
-  * TODO Add smooth scrolling to index page
   * TODO Aside: Archive, Tags
-  * TODO Footer: contact, Social networks, license, technology used, hosting
   * TODO Posts: comments, date, permalink, share
+  * TODO Add projects menu
+  * TODO Pygments
+  * TODO Glich between posts > post
+  * TODO Render resume
+  * TODO About link to first post
+  * TODO About responsive view
 
 Third party components, inspirations, credits, etc.

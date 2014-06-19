@@ -6,7 +6,6 @@ timezone: Europe/Madrid
 encoding: UTF-8
 
 future: false
-
 permalink: pretty
 
 #
