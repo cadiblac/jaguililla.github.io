@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Hello World!"
-date:   2014-06-19 18:00
-categories: blog
+title:  Hello World!
+categories: Projects
+tags: Blog
 ---
 
 Everything begins with a... *[Hello World!][1]*

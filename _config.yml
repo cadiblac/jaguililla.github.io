@@ -14,8 +14,8 @@ permalink: pretty
 
 # Third party services
 analytics:
-    id: UA-48216810-1
-    property: there4.co
+  id: UA-48216810-1
+  property: there4.co
 disqus_shortname: there4co
 
 bootstrapcdn: http://netdna.bootstrapcdn.com
@@ -30,9 +30,9 @@ production_url: http://there4.co
 
 # Author
 author:
-    name: Juan José Aguililla
-    github: jamming
-    twitter: jaguililla
-    linkedin: jaguililla
-    email: juanjoaguililla@gmail.com
+  name: Juan José Aguililla
+  github: jamming
+  twitter: jaguililla
+  linkedin: jaguililla
+  email: juanjoaguililla@gmail.com
 

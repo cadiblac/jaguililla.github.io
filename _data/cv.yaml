@@ -1,32 +1,32 @@
 
 Personal:
-    Name: { First: Juan José, Middle: Aguililla, Last: Martínez }
-    Birth: 1979-01-22
-    Birth Country: ES
-    Mother Language: es
-    Photo: assets/cv/photo.jpg
-    Gender: male
-    Alias: jamming
-    Avatar: assets/cv/avatar.png
-    Driving License: B1
+  Name: { First: Juan José, Middle: Aguililla, Last: Martínez }
+  Birth: 1979-01-22
+  Birth Country: ES
+  Mother Language: es
+  Photo: assets/cv/photo.jpg
+  Gender: male
+  Alias: jamming
+  Avatar: assets/cv/avatar.png
+  Driving License: B1
 
 Residence:
-    City: Madrid
-    Country: ES
-    Postcode: 28038
+  City: Madrid
+  Country: ES
+  Postcode: 28038
 
 Contact:
-    Mobile: 620 38 28 08
-    Email: juanjoaguililla@gmail.com
+  Mobile: 620 38 28 08
+  Email: juanjoaguililla@gmail.com
 
 Social Networks:
-    LinkedIn: jaguililla
-    Twitter: jaguililla
-    Github: jamming
-    Bitbucket: jamming
+  LinkedIn: jaguililla
+  Twitter: jaguililla
+  Github: jamming
+  Bitbucket: jamming
 
 Publications:
-    Website: http://there4.co
+  Website: http://there4.co
 
 Groups:
   - Group: Betabeers
@@ -43,7 +43,7 @@ Languages:
 Objectives: My objectives # TODO
 
 Top Skills: [
-    Software Design, Java Programming, Web Programming, Database Design, Programming Tools
+  Software Design, Java Programming, Web Programming, Database Design, Programming Tools
 ]
 
 Experience:
@@ -69,10 +69,12 @@ Experience:
         From: 2013-04
         To: present
         Description: >
-          Desing and development of a testing tool meant to simulate physical devices in order to
-          test applications which uses them without the need of the actual hardware.
+          Desing and development of a testing tool meant to simulate physical devices in order
+          to test applications which uses them without the need of the actual hardware.
         Responsabilities:
-        Technologies: [ Java Swing, Java Networking, Java Threading, Java IO, EJB Client, JUnit ]
+        Technologies: [
+          Java Swing, Java Networking, Java Threading, Java IO, EJB Client, JUnit
+        ]
         Servers: [ jBoss 5.1 ]
         Tools: [ Eclipse 3.7, Subversion, Maven 3, JIRA, Bamboo, Sonar ]
 
@@ -80,8 +82,8 @@ Experience:
         From: 2012-08
         To: 2012-10
         Description: >
-          Development of a mobile and a Web application to gather product's information associated
-          to their Datamatrix codes. Also Web desing (UI, colors, branding, etc.)
+          Development of a mobile and a Web application to gather product's information
+          associated to their Datamatrix codes. Also Web desing (UI, colors, branding, etc.)
         Responsabilities:
         Technologies: [
           Java SE, JAX-RS (REST Services), Android, HTML5, Less CSS, Twitter Bootstrap, JUnit
@@ -131,8 +133,8 @@ Experience:
         From:  2008-09
         To: 2008-10
         Description: >
-          Analysis, design and development for several projects managed by this area (CMS for the
-          Barcelona City Hall and PAI 4.5 -Movistart Web Content platform-).
+          Analysis, design and development for several projects managed by this area (CMS for
+          the Barcelona City Hall and PAI 4.5 -Movistart Web Content platform-).
         Responsabilities:
         Technologies: [ J2EE, Vignette ]
         Servers: [ Vignette ]
@@ -144,7 +146,8 @@ Experience:
         To: 2008-09
         Description: >
           Analysis and development of the CUN Web Application. This application was designed to
-          control patient's medical data, this data is entered and sent via Web or by Mobile phone.
+          control patient's medical data, this data is entered and sent via Web or by Mobile
+          phone.
         Responsabilities:
         Technologies: [ Struts 1, XHTML, SQL ]
         Servers: [ Oracle 8, Tomcat 5.5 ]
@@ -164,8 +167,8 @@ Experience:
 
       - Course: RIA Web Applications with GWT Course
         Description: >
-          I taught a course of six hours to learn how to develop RIA applications using Google's
-          Web Framework (GWT).
+          I taught a course of six hours to learn how to develop RIA applications using
+          Google's Web Framework (GWT).
         Responsabilities: Teacher
         Technologies: [ GWT ]
         Servers: [ Tomcat ]
@@ -173,15 +176,15 @@ Experience:
 
       - Course: Automatic Build Management with Ant y Maven Course
         Description: >
-          I taught a four hours course about controlling and building software projects using Ant
-          and Maven 2.
+          I taught a four hours course about controlling and building software projects using
+          Ant and Maven 2.
         Responsabilities: Teacher
         Technologies: [ Ant, Maven ]
 
       - Course: Introduction to J2EE Course
         Description: >
-          I taught an introductory course about the JEE platform of six hours long. It was focused
-          in the J2EE architecture and Web modules development (Servlets and JSPs).
+          I taught an introductory course about the JEE platform of six hours long. It was
+          focused in the J2EE architecture and Web modules development (Servlets and JSPs).
         Responsabilities: Teacher
         Technologies: [ JEE, Servlets, JSP ]
         Servers: [ JBoss ]
@@ -213,8 +216,8 @@ Experience:
         From: 2005-02
         To: 2005-12
         Description: >
-          Development and maintenance of a Web application designed to manage insurance policies
-          by Internet.
+          Development and maintenance of a Web application designed to manage insurance
+          policies by Internet.
         Responsabilities:
         Technologies: [ J2EE, XML (JDOM), EJB, XHTML, CSS, SQL, JavaScript ]
         Servers: [ Oracle 8i, Weblogic 5.1 ]
@@ -235,8 +238,8 @@ Experience:
         Description: >
           Analysis, design and development of a client-server application to automate
           communications to customers (sending SMSs, emails or voice calls). I designed the
-          application's architecture using UML and created the project's infrastructure (packages
-          generation, documentation, component signing, etc.).
+          application's architecture using UML and created the project's infrastructure
+          (packages generation, documentation, component signing, etc.).
         Responsabilities:
         Technologies: [ J2SE, Java Web Start, Swing, PHP, SQL, Torque ]
         Servers: [ MySQL 4.0 ]
@@ -270,8 +273,8 @@ Experience:
         To: 2003-07
         Description: >
           Application to monitor the mail server network to assure the quality of the service.
-          This goal was achieved by using several process (Java threads) to send and receive mails
-          to each server.
+          This goal was achieved by using several process (Java threads) to send and receive
+          mails to each server.
         Responsabilities:
         Technologies: [ J2SE, XML (SAX, DOM), Threads, MQ Series, Javamail, AIX ]
         Servers: [ Oracle 8i ]
@@ -282,8 +285,9 @@ Experience:
         From: 2002-08
         To: 2002-09
         Description: >
-          I taught a four weeks course for WSBCC (WebSphere Business Component Composer) and Java
-          development. For the course, the students used Eclipse 2.0 and Visual Age for Java 4.0.
+          I taught a four weeks course for WSBCC (WebSphere Business Component Composer) and
+          Java development. For the course, the students used Eclipse 2.0 and Visual Age for
+          Java 4.0.
         Responsabilities:
 
   - Company: Thales I.S.
@@ -312,7 +316,8 @@ Experience:
         From: 2002-02
         To: 2002-04
         Description: >
-          Development of an application to translate Oracle Forms windows (called forms as well).
+          Development of an application to translate Oracle Forms windows (called forms as
+          well).
         Responsabilities:
         Technologies: [ C++, Oracle, SQL, PL/SQL ]
         Servers: [ Oracle 8i ]
@@ -334,8 +339,8 @@ Experience:
         From: 2000-11
         To: 2001-08
         Description: >
-          Programming the client side of a client-server application which purpose was to manage
-          Telefónica's most important customers.
+          Programming the client side of a client-server application which purpose was to
+          manage Telefónica's most important customers.
         Responsabilities:
         Technologies: [ J2SE, Swing, XML, WSBCC ]
         Servers: [ Host, DB2 ]

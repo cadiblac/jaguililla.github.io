@@ -11,7 +11,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-size: 16px;
+  font-size: 15px;
   background: transparent;
 }
 
@@ -30,6 +30,8 @@ h1, h2, h3 {
 }
 
 h1 { font-size: 28px; }
+
+#posts h1, #post h1 { margin-bottom: 0; }
 
 a:hover, a:focus {
   color: rgb(126, 252, 18);
@@ -159,6 +161,7 @@ footer {
   height: 80px;
   color: rgba(255, 255, 255, 0.2);
   text-align: center;
+  font-size: 16px;
   padding-top: 20px;
 }
 
@@ -167,4 +170,17 @@ footer a { color: rgba(255, 255, 255, 0.4); }
 footer a:hover {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
+}
+
+#posts nav, #post nav { margin-bottom: 15px; }
+
+#posts nav span, #post nav span {
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 10px;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+#posts nav span.field, #post nav span.field {
+  margin-right: 30px;
 }

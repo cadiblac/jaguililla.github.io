@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The Making Of"
-date:   2014-06-19 18:00
-categories: blog jekyll
+title:  The Making Of
+categories: Projects
+tags: Blog Jekyll
 ---
 
 My blog rationale
@@ -31,19 +31,11 @@ My blog (behind the scenes)
 - Redcarpet markdown parser didn't work for me I used the default one ?'kramdown'?
 - crossdomain, humans & robots from HTML5 Bootstrap
 
-
-
-Inspirations:
-  http://www.dueyfinster.com/2014/03/node-tutorial.html
-  http://jasonrudolph.com/blog/
-  
-  <p>
-    For the site development I used the following resources:
-  </p>
-  <ul>
-    <li>Theme and code</li>
-    <li>Icomoon</li>
-    <li>Fontawesome</li>
-    <li>Bootswatch</li>
-  </ul>
+Fork it at Github
+Change /img/icon.png (see icons.sh)
+Pick another style (or change one) (see styles.sh and themes.sh)
+You can delete the CV... unless you want to pretend be me (which I strongly discourage)
+Of course, fill the _drafts and _posts directories with your own content
+_graphics is not really relevant, if you like the photos, keep them
+Change CNAME, humans
 

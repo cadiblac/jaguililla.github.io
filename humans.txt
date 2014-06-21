@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Juanjo Aguililla -- Handyman -- @jaguililla
 
 # THANKS
 
-    <name>
+    Carlos Alexandro Becker - For his Jekyll theme "UP"
+    Jason Rudolph - For inspiring me (basicly copying) in the design
+    Duey Finster - For his awesome design (from which I borrowed some details)
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Jekyll, HTML5, CSS3, Bootswatch, Font Awesome, IcoMoon
+    Github, Bootstrap CDN, Cloudflare's free CDN
