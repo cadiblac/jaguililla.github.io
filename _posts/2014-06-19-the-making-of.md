@@ -23,7 +23,7 @@ My blog (behind the scenes)
 - Install: ruby, gem, jekyll, python, pygments
 - Selecting a theme (going with vanilla Jekyll + templates (startbootstrap) )
 - Operation: using make (available from all Unix, in the end it has to be Unix... so who cares about multiplatform)
-- Generating 'syntax' for pygments
+- Generating 'syntax' for pygments (pygmentize -S monokai -f html > css/monokai.css)
 - Using CDNs instead copying libraries
 - Deployment (git commands)
 - References (themes, info, jekyll)
@@ -31,11 +31,14 @@ My blog (behind the scenes)
 - Redcarpet markdown parser didn't work for me I used the default one ?'kramdown'?
 - crossdomain, humans & robots from HTML5 Bootstrap
 
-Fork it at Github
-Change /img/icon.png (see icons.sh)
-Pick another style (or change one) (see styles.sh and themes.sh)
-You can delete the CV... unless you want to pretend be me (which I strongly discourage)
-Of course, fill the _drafts and _posts directories with your own content
-_graphics is not really relevant, if you like the photos, keep them
-Change CNAME, humans
+To use the code for your own site refer to the readme
 
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
