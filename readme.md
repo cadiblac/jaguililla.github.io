@@ -27,12 +27,12 @@ THANKS TO
 
 The following projects:
 
-* The [Jekyll][http://jekyllrb.com] Blog engine
-* [JekyllBootstrap][http://jekyllbootstrap.com] for `sitemap.txt` and `rss.xml` files
-* Custom icons are taken from [IcoMoon][http://icomoon.io]
-* [Font Awesome][//fontawesome.io] is used for the rest of the icons
-* The theme is based on [Bootswatch][http://bootswatch.com]
-* And the [Modern Business][http://startbootstrap.com/modern-business] theme
+* The [Jekyll](http://jekyllrb.com) Blog engine
+* [JekyllBootstrap](http://jekyllbootstrap.com) for `sitemap.txt` and `rss.xml` files
+* Custom icons are taken from [IcoMoon](http://icomoon.io)
+* [Font Awesome](http://fontawesome.io) is used for the rest of the icons
+* The theme is based on [Bootswatch](http://bootswatch.com)
+* And the [Modern Business](http://startbootstrap.com/modern-business) theme
 
 The following persons:
 
@@ -42,9 +42,9 @@ The following persons:
 
 The following companies for hosting site's files:
 
-* The pages are hosted in [Github][http://github.com]
-* Some resources are served from [Bootstrap CDN][http://bootstrapcdn.com]
-* And [Cloudflare's free CDN][http://cloudflare.com]
+* The pages are hosted in [Github](http://github.com)
+* Some resources are served from [Bootstrap CDN](http://bootstrapcdn.com)
+* And [Cloudflare's free CDN](http://cloudflare.com)
 
 [calexandro]: http://carlosbecker.com/
 [up]: http://github.com/caarlos0/up
@@ -84,7 +84,7 @@ PENDING TASKS (TODO)
   * Pagination, share (tweet, I like, etc...) `_config.yml`
   * Widgets to share: Twitter, Stackoverflow, github, permalink, etc
   * Add CSS animations for navbar brand over and main title over. Check
-    [daneden.me][http://daneden.me/animate] site
+    [daneden.me](http://daneden.me/animate) site
   * Search box
   * Convert `modern-business.css` to less
   * Aside: Archive, Tags
