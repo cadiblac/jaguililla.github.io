@@ -27,12 +27,12 @@ THANKS TO
 
 The following projects:
 
-* The [Jekyll][//jekyllrb.com] Blog engine
-* [JekyllBootstrap][//jekyllbootstrap.com] for `sitemap.txt` and `rss.xml` files
-* Custom icons are taken from [IcoMoon][//icomoon.io]
+* The [Jekyll][http://jekyllrb.com] Blog engine
+* [JekyllBootstrap][http://jekyllbootstrap.com] for `sitemap.txt` and `rss.xml` files
+* Custom icons are taken from [IcoMoon][http://icomoon.io]
 * [Font Awesome][//fontawesome.io] is used for the rest of the icons
-* The theme is based on [Bootswatch][//bootswatch.com]
-* And the [Modern Business][//startbootstrap.com/modern-business] theme
+* The theme is based on [Bootswatch][http://bootswatch.com]
+* And the [Modern Business][http://startbootstrap.com/modern-business] theme
 
 The following persons:
 
@@ -42,14 +42,14 @@ The following persons:
 
 The following companies for hosting site's files:
 
-* The pages are hosted in [Github][//github.com]
-* Some resources are served from [Bootstrap CDN][//bootstrapcdn.com]
-* And [Cloudflare's free CDN][//cloudflare.com]
+* The pages are hosted in [Github][http://github.com]
+* Some resources are served from [Bootstrap CDN][http://bootstrapcdn.com]
+* And [Cloudflare's free CDN][http://cloudflare.com]
 
-[calexandro]: //carlosbecker.com/
-[up]: //github.com/caarlos0/up
-[jrudolph]: //jasonrudolph.com
-[dfinster]: //www.dueyfinster.com
+[calexandro]: http://carlosbecker.com/
+[up]: http://github.com/caarlos0/up
+[jrudolph]: http://jasonrudolph.com
+[dfinster]: http://www.dueyfinster.com
 
 
 LICENSE
@@ -83,7 +83,8 @@ PENDING TASKS (TODO)
 
   * Pagination, share (tweet, I like, etc...) `_config.yml`
   * Widgets to share: Twitter, Stackoverflow, github, permalink, etc
-  * Add CSS animations for navbar brand over and main title over [http://daneden.me/animate]
+  * Add CSS animations for navbar brand over and main title over. Check
+    [daneden.me][http://daneden.me/animate] site
   * Search box
   * Convert `modern-business.css` to less
   * Aside: Archive, Tags
