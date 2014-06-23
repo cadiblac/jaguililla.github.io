@@ -2,11 +2,20 @@
 ABOUT
 -----
 
+My personal Blog, it is developed from scratch using [Jekyll] and [Bootstrap]
+
+[Jekyll]: http://jekyllrb.com
+[Bootstrap]: http://getbootstrap.com
 
 DIRECTORIES
 -----------
 
+Most directories are the ones defined by Jekyll to generate a site. These are the ones created
+for this site:
+
+* `_bin` contains the shell scripts needed to build the blog and its resources
 * `_graphics` holds graphic resources used in the site
+* `_less` LESS styles of the blog
 
 
 FORKING THE SITE
@@ -18,7 +27,7 @@ You can base your blog on this by forking it at Github. Don't forget to:
 * Pick another style (or change an existing one). See `styles.sh` and `themes.sh`
 * You can delete the CV, unless you pretend to be me (which I strongly discourage)
 * Of course, fill the `_drafts` and `_posts` directories with your own content
-* Change `CNAME`, `humans.txt`
+* Change `CNAME` and `humans.txt` files
 * Change background photo and or theme
 
 
@@ -27,7 +36,7 @@ THANKS TO
 
 The following projects:
 
-* The [Jekyll](http://jekyllrb.com) Blog engine
+* The [Jekyll] Blog engine
 * [JekyllBootstrap](http://jekyllbootstrap.com) for `sitemap.txt` and `rss.xml` files
 * Custom icons are taken from [IcoMoon](http://icomoon.io)
 * [Font Awesome](http://fontawesome.io) is used for the rest of the icons

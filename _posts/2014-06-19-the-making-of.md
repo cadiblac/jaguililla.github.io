@@ -28,8 +28,11 @@ My blog (behind the scenes)
 - Deployment (git commands)
 - References (themes, info, jekyll)
 - Using webstrap
-- Redcarpet markdown parser didn't work for me I used the default one ?'kramdown'?
 - crossdomain, humans & robots from HTML5 Bootstrap
+
+Conclusion: way harder than using jekyllBootstrap, and other classical blog engines. In return
+you get flexibility and learn things reusable (not custom templates for blogger and so on).
+The process of doing it was fun
 
 To use the code for your own site refer to the readme
 
