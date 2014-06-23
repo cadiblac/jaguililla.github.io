@@ -184,3 +184,8 @@ footer a:hover {
 #posts nav span.field, #post nav span.field {
   margin-right: 30px;
 }
+
+.highlight pre {
+  background-color: #403F36;
+  border: 1px solid #75715E;
+}

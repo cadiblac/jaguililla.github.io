@@ -2,7 +2,7 @@
 ABOUT
 -----
 
-My personal Blog, it is developed from scratch using [Jekyll] and [Bootstrap]
+My personal Blog, it is developed from scratch using [Jekyll] and [Bootstrap].
 
 [Jekyll]: http://jekyllrb.com
 [Bootstrap]: http://getbootstrap.com
@@ -13,9 +13,9 @@ DIRECTORIES
 Most directories are the ones defined by Jekyll to generate a site. These are the ones created
 for this site:
 
-* `_bin` contains the shell scripts needed to build the blog and its resources
-* `_graphics` holds graphic resources used in the site
-* `_less` LESS styles of the blog
+* `_bin` contains the shell scripts needed to build the blog and its resources.
+* `_graphics` holds graphic resources used in the site.
+* `_less` LESS styles of the blog.
 
 
 FORKING THE SITE
@@ -23,12 +23,12 @@ FORKING THE SITE
 
 You can base your blog on this by forking it at Github. Don't forget to:
 
-* Change `_graphics/icon.png` (see `icons.sh`)
-* Pick another style (or change an existing one). See `styles.sh` and `themes.sh`
-* You can delete the CV, unless you pretend to be me (which I strongly discourage)
-* Of course, fill the `_drafts` and `_posts` directories with your own content
-* Change `CNAME` and `humans.txt` files
-* Change background photo and or theme
+* Change `_graphics/icon.png` (see `icons.sh`).
+* Pick another style (or change an existing one). See `styles.sh` and `themes.sh`.
+* You can delete the CV, unless you pretend to be me (which I strongly discourage).
+* Of course, fill the `_drafts` and `_posts` directories with your own content.
+* Change `CNAME` and `humans.txt` files.
+* Change background photo and or theme.
 
 
 THANKS TO
@@ -36,24 +36,24 @@ THANKS TO
 
 The following projects:
 
-* The [Jekyll] Blog engine
-* [JekyllBootstrap](http://jekyllbootstrap.com) for `sitemap.txt` and `rss.xml` files
-* Custom icons are taken from [IcoMoon](http://icomoon.io)
-* [Font Awesome](http://fontawesome.io) is used for the rest of the icons
-* The theme is based on [Bootswatch](http://bootswatch.com)
-* And the [Modern Business](http://startbootstrap.com/modern-business) theme
+* The [Jekyll] Blog engine.
+* [JekyllBootstrap](http://jekyllbootstrap.com) for `sitemap.txt` and `rss.xml` files.
+* Custom icons are taken from [IcoMoon](http://icomoon.io).
+* [Font Awesome](http://fontawesome.io) is used for the rest of the icons.
+* The theme is based on [Bootswatch](http://bootswatch.com).
+* And the [Modern Business](http://startbootstrap.com/modern-business) theme.
 
 The following persons:
 
-* [Carlos Alexandro Becker][calexandro] for his Jekyll theme ["UP"][up]
-* [Jason Rudolph][jrudolph] for inspiring me (basicly copying) in the design
-* [Duey Finster][dfinster] for his awesome design (from which I borrowed some details)
+* [Carlos Alexandro Becker][calexandro] for his Jekyll theme ["UP"][up].
+* [Jason Rudolph][jrudolph] for inspiring me (basicly copying) in the design.
+* [Duey Finster][dfinster] for his awesome design (from which I borrowed some details).
 
 The following companies for hosting site's files:
 
-* The pages are hosted in [Github](http://github.com)
-* Some resources are served from [Bootstrap CDN](http://bootstrapcdn.com)
-* And [Cloudflare's free CDN](http://cloudflare.com)
+* The pages are hosted in [Github](http://github.com).
+* Some resources are served from [Bootstrap CDN](http://bootstrapcdn.com).
+* And [Cloudflare's free CDN](http://cloudflare.com).
 
 [calexandro]: http://carlosbecker.com/
 [up]: http://github.com/caarlos0/up
