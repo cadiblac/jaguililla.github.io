@@ -29,6 +29,7 @@ My blog (behind the scenes)
 - References (themes, info, jekyll)
 - Using webstrap
 - crossdomain, humans & robots from HTML5 Bootstrap
+- If page isn't updated, check Github repo settings (Github Pages section)
 
 Conclusion: way harder than using jekyllBootstrap, and other classical blog engines. In return
 you get flexibility and learn things reusable (not custom templates for blogger and so on).
@@ -36,12 +37,12 @@ The process of doing it was fun
 
 To use the code for your own site refer to the readme
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+    {% highlight ruby %}
+    def show
+      @widget = Widget(params[:id])
+      respond_to do |format|
+        format.html # show.html.erb
+        format.json { render json: @widget }
+      end
+    end
+    {% endhighlight %}

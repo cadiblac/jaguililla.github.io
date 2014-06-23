@@ -8,6 +8,8 @@ encoding: UTF-8
 future: false
 permalink: pretty
 
+markdown: kramdown
+
 #
 # Custom
 #
