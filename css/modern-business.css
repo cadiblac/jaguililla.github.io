@@ -192,3 +192,9 @@ footer a:hover {
   background-color: #403F36;
   border: 1px solid #75715E;
 }
+
+code {
+  background-color: #403F36;
+  border: 1px solid #75715E;
+  color: #E1E1E1;
+}
