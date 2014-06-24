@@ -26,10 +26,13 @@ html {
 h1, h2, h3, a { color: rgb(176, 223, 96); }
 h1, h2, h3 {
   color: rgb(176, 223, 96);
-  font-weight: bolder;
+  font-size: 16px;
 }
 
-h1 { font-size: 28px; }
+h1 {
+  font-size: 28px;
+  font-weight: bolder;
+}
 
 #posts h1, #post h1 { margin-bottom: 0; }
 
