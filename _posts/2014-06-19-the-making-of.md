@@ -2,9 +2,9 @@
 layout: post
 title:  The Making Of
 excerpt: >
-  The idea of writing a blog came to my mind long time ago. I started two times, but finally the
-  third is the good one. First because I found a good platform to write posts and create my own
-  design and second because I already have a bunch of stories to write about...
+  The idea of writing a blog came to my mind long time ago. I started two times, but finally
+  the third is the good one. First because I found a good platform to write posts and create my
+  own design and second because I already have a bunch of stories to write about...
 categories: Projects
 tags: Blog Jekyll
 ---
@@ -44,8 +44,8 @@ The implementation
 I saw some premade themes and sites done with Jekyll,
 
 - jekyll new <user>.github.io
-- atom.xml and _includes taken from 'UP'
-- sitemap.txt and rss.xml taken from jekyllbootstrap.com
+- `atom.xml` and `_includes` taken from 'UP'
+- `sitemap.txt` and `rss.xml` taken from jekyllbootstrap.com
 - templates from startbootstrap
 - Why Jekyll instead Jekyll bootstrap? MVB (minimum viable blog)
 - Install: ruby, gem, jekyll, python, pygments
