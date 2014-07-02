@@ -41,33 +41,66 @@ first monitor ;)
 The implementation
 ------------------
 
-I saw some premade themes and sites done with Jekyll,
+I saw some premade themes and sites done with [Jekyll], but finally I started from scratch to
+have the minimal code I needed for my blog.
 
-- jekyll new <user>.github.io
-- `atom.xml` and `_includes` taken from 'UP'
-- `sitemap.txt` and `rss.xml` taken from jekyllbootstrap.com
-- templates from startbootstrap
-- Why Jekyll instead Jekyll bootstrap? MVB (minimum viable blog)
-- Install: ruby, gem, jekyll, python, pygments
-- Selecting a theme (going with vanilla Jekyll + templates (startbootstrap) )
-- Operation: using make (available from all Unix, in the end it has to be Unix... so who cares
-  about multiplatform)
-- Generating 'syntax' for pygments (pygmentize -S monokai -f html > css/monokai.css)
-- Using CDNs instead copying libraries
-- Deployment (git commands)
-- References (themes, info, jekyll)
-- Using webstrap
-- crossdomain, humans & robots from HTML5 Bootstrap
-- If page isn't updated, check Github repo settings (Github Pages section)
+First, you have to install the following software in your system:
+- Ruby
+- Gem
+- Jekyll (obvious)
+- Python
+- Pygments (for syntax highlighting)
+    
+Then, to create the site structure, you have to execute the command
+`jekyll new <user>.github.io`.
+  
+The `atom.xml` and `_includes` files were taken from the [UP][up] theme. Note that UP's
+includes were modified for the blog.
+
+`sitemap.txt` and `rss.xml` were copied from [JekyllBootstrap].
+
+For the design I chose Twitter Bootstrap. I found very good templates in startbootstrap
+
+Operation: using make (available from all Unix, in the end it has to be Unix... so who cares
+about multiplatform)
+  
+Generating 'syntax' for pygments `pygmentize -S monokai -f html > css/monokai.css`
+
+Using CDNs instead copying libraries
+
+Deployment (git commands)
+
+References (themes, info, jekyll)
+
+Using webstrap html5 boilerplate
+
+crossdomain, humans & robots from HTML5 Bootstrap
+
+If page isn't updated, check Github repo settings (Github Pages section)
+
+[up]: http://github.com/caarlos0/up
+[JekyllBootstrap]: http://jekyllbootstrap.com
 
 
 Conclusion
 ----------
 
-way harder than using jekyllBootstrap, and other classical blog engines. In return
-you get flexibility and learn things reusable (not custom templates for blogger and so on).
-The process of doing it was fun
+Starting a blog with [Jekyll] from scratch is way harder than using [JekyllBootstrap] or other 
+blog engine. In exchange: you get flexibility, take advantage of your current knowledge (Git, 
+HTML...) and you don't have to learn custom templates for closed products.
 
+Also you will learn valuable things (about Web design and development) and have fun in the 
+process!
+
+As a side effect, I realized that static site generation can be useful for other purposes (not
+only for blogs). For example, it can be used to generate software project's technical 
+documentation.
+
+Regarding this last point, I found a [Jekyll] wannabe in Java called [JBake] that looks very 
+promising.
+
+[Jekyll]: http://jekyllrb.com
+[JBake]: http://jbake.org
 
 (Re)using it
 ------------
