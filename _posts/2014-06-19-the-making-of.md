@@ -42,9 +42,9 @@ The implementation
 ------------------
 
 I saw some premade themes and sites done with [Jekyll], but finally I started from scratch to
-have the minimal code I needed for my blog.
+have the minimal code I needed for my blog and to customize it freely from the start.
 
-First, you have to install the following software in your system:
+In order to blog with [Jekyll], you have to install the following software in your system:
 - Ruby
 - Gem
 - Jekyll (obvious)
@@ -52,34 +52,46 @@ First, you have to install the following software in your system:
 - Pygments (for syntax highlighting)
     
 Then, to create the site structure, you have to execute the command
-`jekyll new <user>.github.io`.
+`jekyll new <user>.github.io`. This will generate the minimum files required by Jekyll to build
+a site. The name doesn't need to follow that naming pattern if you are going to host the site
+in other place.
+
+For the design I chose Twitter Bootstrap. I found very good templates in [Start Bootstrap].
+Like these two which I used for some parts of the design:
+
+* [Modern Business][http://startbootstrap.com/modern-business]
+* [Grayscale][http://startbootstrap.com/grayscale]
+
+To generate the base (static) of the site I used html5 boilerplate (in a tool of my own called
+Webstrap).
+
+Using webstrap html5 boilerplate
+
+crossdomain, humans & robots from HTML5 Bootstrap
   
-The `atom.xml` and `_includes` files were taken from the [UP][up] theme. Note that UP's
-includes were modified for the blog.
+I picked some files from other Jekyll blogs:
 
-`sitemap.txt` and `rss.xml` were copied from [JekyllBootstrap].
+* The `atom.xml` and `_includes` files were taken from the [UP][up] theme. Note that UP's
+  includes were modified for the blog.
 
-For the design I chose Twitter Bootstrap. I found very good templates in startbootstrap
+* `sitemap.txt` and `rss.xml` were copied from [JekyllBootstrap].
+
+Using CDNs instead copying libraries
 
 Operation: using make (available from all Unix, in the end it has to be Unix... so who cares
 about multiplatform)
   
 Generating 'syntax' for pygments `pygmentize -S monokai -f html > css/monokai.css`
 
-Using CDNs instead copying libraries
-
 Deployment (git commands)
 
 References (themes, info, jekyll)
-
-Using webstrap html5 boilerplate
-
-crossdomain, humans & robots from HTML5 Bootstrap
 
 If page isn't updated, check Github repo settings (Github Pages section)
 
 [up]: http://github.com/caarlos0/up
 [JekyllBootstrap]: http://jekyllbootstrap.com
+[Start Bootstrap]: http://startbootstrap.com
 
 
 Conclusion
