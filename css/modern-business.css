@@ -193,6 +193,8 @@ pre {
   border: 1px solid #75715E;
 }
 
+pre code { color: lightgray; }
+
 code {
   background-color: #403F36;
   color: #E1E1E1;
