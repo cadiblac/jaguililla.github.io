@@ -175,7 +175,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
-#posts nav, #post nav { margin-bottom: 15px; }
+#posts nav, #post nav {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
 
 #posts nav span, #post nav span {
   color: rgba(255, 255, 255, 0.3);
