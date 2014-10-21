@@ -27,18 +27,17 @@ built with [Gradle] and other ([popapp.co]) coded in Java and built by [Maven].
 The free version has a limit of **500MB**, not enough to deploy the smallest project of my 
 previous company, but plenty to support Open Source projects though.
 
-It integrates with [Maven Central] and [JCenter] which claims to be more complete than Maven's
-main repository.
+Bintray integrates with [Maven Central] and [JCenter] which claims to be more complete than
+Maven's main repository.
 
 To integrate it with your build process you need to add the following lines to your build
-script:
-
-Be aware that **you won't be able to deploy snapshots!**
+script (be aware that **you won't be able to deploy snapshots!**):
 
 * For [Gradle]:
 
-  * `build.gradle`
+  * *build.gradle*
 {% highlight groovy %}
+
     apply plugin: 'maven-publish'
     
     // ...
@@ -74,6 +73,7 @@ Be aware that **you won't be able to deploy snapshots!**
         }
     }
 
+    // ...
 
 def String externalProperty (String fileName, String propertyName) {
     Properties properties = new Properties ()
@@ -82,7 +82,7 @@ def String externalProperty (String fileName, String propertyName) {
 }
 {% endhighlight %}
 
-  * `.gradle/gradle.properties` (this file is created to avoid publishing your API key)
+  * *.gradle/gradle.properties* (this file is created to avoid publishing your API key)
 {% highlight properties %}
 bintrayPassword={your Bintray api key}
 {% endhighlight %}
@@ -91,7 +91,7 @@ And execute: `gradle publish`
 
 * For [Maven]:
 
-  * `pom.xml`
+  * *pom.xml*
 {% highlight xml %}
 <distributionManagement>
   <repository>
@@ -102,7 +102,7 @@ And execute: `gradle publish`
 </distributionManagement>
 {% endhighlight %}
 
-  * `settings.xml`
+  * *settings.xml*
 {% highlight xml %}
 <server>
   <id>{bintray repository}</id>
@@ -113,7 +113,8 @@ And execute: `gradle publish`
 
 And run: `mvn source:jar deploy`
 
-To include your binaries in Maven you've got to request that from their site (using the Web UI)
+To include your binaries in Maven you've got to request that from their site (using the Web
+UI).
 
 To me, this is a very good platform to support your Open Source projects, just like [Github],
 [Travis CI], [Coveralls] and all the like. Anyway, prior to deploying to [JCenter] you
