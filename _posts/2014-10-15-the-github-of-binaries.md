@@ -161,7 +161,7 @@ binaries!
 [Artifactory]: http://www.jfrog.com/artifactory
 [Sonatype]: http://www.sonatype.com
 [Nexus]: http://www.sonatype.com/nexus
-[Sabina]: https://there4.co/sabina
+[Sabina]: http://there4.co/sabina
 [Gradle]: https://gradle.org
 [popapp.co]: http://popapp.co
 [Maven]: https://maven.apache.org
