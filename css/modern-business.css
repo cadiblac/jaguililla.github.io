@@ -152,7 +152,7 @@ a:hover, a:focus {
 
 /* Sticky footer */
 
-#about, #posts, #post {
+#about, #posts, #post, #projects {
   min-height: 100%;
   height: auto;
   margin: 0 auto -80px; /* Negative indent footer by its height */
