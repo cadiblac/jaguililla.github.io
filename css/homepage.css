@@ -40,7 +40,7 @@ footer i { color: rgba(255, 255, 255, 0.2); }
   margin: 0 auto -90px; /* Negative indent footer by it's height */
 }
 
-#links i { font-size: 35px; }
+#links i { font-size: 35px; margin: 0 1em; }
 #links a { color: rgb(176, 223, 96); }
 #links a:hover { color: rgb(126, 252, 18); }
 
