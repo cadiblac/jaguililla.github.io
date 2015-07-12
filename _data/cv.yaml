@@ -40,13 +40,34 @@ Languages:
     Spoken: C1
     Written: C1
 
-Objectives: My objectives # TODO
+Objectives: >
+  TODO
 
 Top Skills: [
   Software Design, Java Programming, Web Programming, Database Design, Programming Tools
 ]
 
 Experience:
+  - Company: Packlink
+    Website: http://www.packlink.es
+    Industry: Internet
+    Occupation: Senior Software Engineer
+    City: Madrid
+    Country: ES
+    Description: >
+      TODO
+
+    Projects:
+
+      - Project: Carriers
+        From: 2014-08
+        To: present
+        Description: >
+          TODO
+        Responsabilities:
+        Technologies: [ Java 8, MongoDB, RabbitMQ, Jackson, Guice ]
+        Tools: [ IntelliJ 14, Git, Github, Maven 3, JIRA, Jenkins, Sonar, Nexus ]
+
   - Company: SICPA
     Website: http://www.sicpa.com
     Industry: Chemicals
@@ -63,11 +84,23 @@ Experience:
 
       The main goal of the Track & Trace solution is to register and record the products made
       in factories.
+
     Projects:
+
+      - Project: DMS KE
+        From: 2014-01
+        To: 2014-07
+        Description: >
+          Maintenance of the server component for the Kenia client, bug fixes and small improvements
+          over the standard server solution.
+        Responsabilities:
+        Technologies: [ Java, JBoss SEAM, Hibernate ]
+        Servers: [ jBoss 5.1 ]
+        Tools: [ Eclipse 3.7, Subversion, Maven 3, JIRA, Bamboo, Sonar ]
 
       - Project: Virline
         From: 2013-04
-        To: present
+        To: 2014-01
         Description: >
           Desing and development of a testing tool meant to simulate physical devices in order
           to test applications which uses them without the need of the actual hardware.
