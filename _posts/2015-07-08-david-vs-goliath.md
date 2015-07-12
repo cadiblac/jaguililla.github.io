@@ -24,7 +24,7 @@ The project to test both frameworks was the simplest one (yes, a Hello World pro
 tools I used to measure the performance were Bash shell scripts, [JMeter] and Java's [VisualVM].
 
 System Information
-------------------
+==================
 
 First of all I will describe the laptop used to run the tests:
 
@@ -50,17 +50,17 @@ First of all I will describe the laptop used to run the tests:
     Total:        8.7G       3.7G       5.0G
 
 Code Size
----------
+=========
 
 The first comparison I made was about the code size. Here are the results:
 
-### Spring Boot
+## Spring Boot
 
     28  39 hello-boot/build.gradle
     18  34 hello-boot/src/main/java/hello/Hello.java
     46  73 total
 
-### Sabina
+## Sabina
 
     13  19 hello-sabina/build.gradle
     10  24 hello-sabina/src/main/java/hello/Hello.java
@@ -70,12 +70,12 @@ The first column is the number of lines, and the second one the number of words.
 Sabina is nearly half the size of the Boot project.
 
 Build Process
--------------
+=============
 
 Let's continue with the build time and binary bundle size. For this test I built both projects 
 three times and then I picked the best results out of the three executions. These were the results:
 
-### Spring Boot
+## Spring Boot
 
     Command being timed: "/opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-boot clean build"
     User time (seconds): 17.16
@@ -84,7 +84,7 @@ three times and then I picked the best results out of the three executions. Thes
     
     -rw-r--r-- 1 jam jam 11M Jul  9 00:53 hello-boot.zip
 
-### Sabina
+## Sabina
 
     Command being timed: "/opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-sabina clean build"
     User time (seconds): 14.06
@@ -97,7 +97,7 @@ There is no big difference in the compile times, but the size of the Sabina's bi
 than half than the Boot one.
 
 Runtime
--------
+=======
 
 Finally, I executed 10,000 requests from 8 threads, to check the memory and CPU usage along 
 with the requests per second per framework.
@@ -107,12 +107,12 @@ you can clone the [repository][Repository] and run the test yourself.
 
 Here are the results of my run:
 
-### Spring Boot
+## Spring Boot
 
 ![JMeter summary](https://raw.githubusercontent.com/jamming/boot-vs-sabina/master/results/summary-report-boot.png)
 ![VisualVM graphs](https://raw.githubusercontent.com/jamming/boot-vs-sabina/master/results/performance-boot.png)
 
-### Sabina
+## Sabina
 
 ![JMeter summary](https://raw.githubusercontent.com/jamming/boot-vs-sabina/master/results/summary-report-sabina.png)
 ![VisualVM graphs](https://raw.githubusercontent.com/jamming/boot-vs-sabina/master/results/performance-sabina.png)
@@ -124,7 +124,7 @@ So if you really need something fast and are not going to use all its features, 
 evaluate other options.
 
 Disclaimer
-----------
+==========
 
 Of course, these two frameworks doesn't compete in the same league... and their feature set is
 (to say it softly) not of the same size.
@@ -140,10 +140,10 @@ there, but Sabina didn't implement all tests (another TODO in my task tracker) a
 that Spring's version is the latest one.
 
 
-[Boot]: http://projects.spring.io/spring-boot/  
-[Sabina] : http://there4.co/sabina/
-[Repository] : https://github.com/jamming/boot-vs-sabina
-[JMeter] : http://jmeter.apache.org/
-[VisualVM] : https://visualvm.java.net/
-[Blog] : https://github.com/jamming/sabina/tree/master/blog
-[Techempower] : https://www.techempower.com/benchmarks/
+[Boot]: http://projects.spring.io/spring-boot/
+[Sabina]: http://there4.co/sabina/
+[Repository]: https://github.com/jamming/boot-vs-sabina
+[JMeter]: http://jmeter.apache.org/
+[VisualVM]: https://visualvm.java.net/
+[Blog]: https://github.com/jamming/sabina/tree/master/blog
+[Techempower]: https://www.techempower.com/benchmarks/
