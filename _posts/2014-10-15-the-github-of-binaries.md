@@ -64,9 +64,9 @@ script (be aware that **you won't be able to deploy snapshots!**):
         }
         repositories {
             maven {
-                url 'https://api.bintray.com/maven/jamming/maven/Sabina'
+                url 'https://api.bintray.com/maven/jaguililla/maven/Sabina'
                 credentials {
-                    username 'jamming'
+                    username 'jaguililla'
                     password externalProperty ('.gradle/gradle.properties', 'bintrayPassword')
                 }
             }

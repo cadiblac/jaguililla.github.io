@@ -109,13 +109,13 @@ Here are the results of my run:
 
 ## Spring Boot
 
-![JMeter summary](https://raw.githubusercontent.com/jamming/boot-vs-sabina/master/results/summary-report-boot.png)
-![VisualVM graphs](https://raw.githubusercontent.com/jamming/boot-vs-sabina/master/results/performance-boot.png)
+![JMeter summary](https://raw.githubusercontent.com/jaguililla/boot-vs-sabina/master/results/summary-report-boot.png)
+![VisualVM graphs](https://raw.githubusercontent.com/jaguililla/boot-vs-sabina/master/results/performance-boot.png)
 
 ## Sabina
 
-![JMeter summary](https://raw.githubusercontent.com/jamming/boot-vs-sabina/master/results/summary-report-sabina.png)
-![VisualVM graphs](https://raw.githubusercontent.com/jamming/boot-vs-sabina/master/results/performance-sabina.png)
+![JMeter summary](https://raw.githubusercontent.com/jaguililla/boot-vs-sabina/master/results/summary-report-sabina.png)
+![VisualVM graphs](https://raw.githubusercontent.com/jaguililla/boot-vs-sabina/master/results/performance-sabina.png)
 
 As you can see Sabina's times are better, but the biggest difference is in the resources' usage. My
 opinion on this is that all features Spring Boot has, impact its runtime performance.
@@ -142,8 +142,8 @@ that Spring's version is the latest one.
 
 [Boot]: http://projects.spring.io/spring-boot/
 [Sabina]: http://there4.co/sabina/
-[Repository]: https://github.com/jamming/boot-vs-sabina
+[Repository]: https://github.com/jaguililla/boot-vs-sabina
 [JMeter]: http://jmeter.apache.org/
 [VisualVM]: https://visualvm.java.net/
-[Blog]: https://github.com/jamming/sabina/tree/master/blog
+[Blog]: https://github.com/jaguililla/sabina/tree/master/blog
 [Techempower]: https://www.techempower.com/benchmarks/
