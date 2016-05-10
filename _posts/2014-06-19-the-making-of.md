@@ -152,4 +152,4 @@ promising.
 If you want to use the code for your own site, you can refer to the [readme.md] file and check
 how to change it to suit your own needs.
 
-[readme.md]: http://github.com/jaguililla/jamming.github.io/blob/master/readme.md
+[readme.md]: http://github.com/jaguililla/jaguililla.github.io/blob/master/readme.md
