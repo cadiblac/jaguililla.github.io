@@ -26,6 +26,7 @@ Needs
 * Containers
 * Teams
 * Environments
+* Monitoring
 * Tools
 * Contracts between services (provide clients)
 * Be more flexible with the arch of each component
